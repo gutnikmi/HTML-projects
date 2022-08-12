@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Документ HTML5</title>
-        <meta name = "description" content="Тест html5">
-    </head>
-    <body>
-        <div>
-            <h1 style="color:green;">Кнопка</h1>
-            <input type="button" value="Нажать"><br/>
-            <a href="ref.html">Test ref </a>
-        </div>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Документ HTML5</title>
+    <meta name="description" content="Тест html5">
+</head>
+
+<body>
+    <script>
+        function demoA() { alert("Fuck you"); }
+    </script>
+    <div>
+        <h1 style="color:green;">Кнопка</h1>
+        <input type="button" value="Нажать" title="Press me" onclick="demoA()"><br />
+        <p>
+            <a href="ref.html"> Тест форматирования</a>
+        </p>
+    </div>
+</body>
+
 </html>

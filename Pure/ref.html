@@ -1,23 +1,113 @@
 <!DOCTYPE html>
 <html>
-<h1>this is a header</h1>
-<div>Hello this is a div</div>
-<p>This is a paragraph</p>
-<pre>
-    This is 
-    pre
-</pre>
-<div><span style="color:green">This is div with </span> span</div>
-<p>Форматирование в <mark>HTML5</mark></p>
-<p>Это <b>выделенный</b> текст</p>
-<p>Это <strong>важный</strong> текст</p>
-<p>Это <del>зачеркнутый</del> текст</p>
-<p>Это <s>недействительный</s> текст</p>
-<p>Это <em>важный</em> текст</p>
-<p>Это текст <i>курсивом</i> </p>
-<p>Это <ins>добавленный</ins> текст</p>
-<p>Это <u>подчеркнутый</u> текст</p>
-<p>X<sub>i</sub> = Y<sup><small>2</small></sup> + Z<sup><small>2</small></sup></p>
-<center><img src="Capy.jpeg" width ="400" height="300" alt="Капибара" style="float:middle" /><br/></center>
-<a href="first.html">Press to go back</a>
+
+<head>
+    <meta charset="utf-8">
+    <title>Тест форматирования</title>
+    <style>
+        ul#menu li {
+            display: inline;
+        }
+        td {
+            border: solid 1px silver; 
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a header</h1>
+    <div>Hello this is a div</div>
+    <p>This is a paragraph</p>
+    <pre>
+            This is 
+            pre
+        </pre>
+    <div><span style="color:green">This is div with </span> span</div>
+    <p>Форматирование в <mark>HTML5</mark></p>
+    <p>Это <b>выделенный</b> текст</p>
+    <p>Это <strong>важный</strong> текст</p>
+    <p>Это <del>зачеркнутый</del> текст</p>
+    <p>Это <s>недействительный</s> текст</p>
+    <p>Это <em>важный</em> текст</p>
+    <p>Это текст <i>курсивом</i> </p>
+    <p>Это <ins>добавленный</ins> текст</p>
+    <p>Это <u>подчеркнутый</u> текст</p>
+    <p>X<sub>i</sub> = Y<sup><small>2</small></sup> + Z<sup><small>2</small></sup></p>
+    <center><img src="Capy.jpeg" width="400" height="300" alt="Капибара" style="float:middle" /><br /></center>
+    <center>
+        <div>This is a Capybara</div>
+    </center>
+    <h2>list-style-type = decimal</h2>
+    <ol style="list-style-type:decimal;" start="3">
+        <li>iPhone 6S</li>
+        <li>Galaxy S7</li>
+        <li>Nexus 5X</li>
+        <li>Lumia 950</li>
+    </ol>
+    <h2>list-style-type = upper-roman</h2>
+    <ul style="list-style-type:upper-roman;">
+        <li>iPhone 6S Plus</li>
+        <li>Galaxy S7 Edge</li>
+        <li>Nexus 6P</li>
+        <li>Lumia 950 XL</li>
+    </ul>
+    <h2>list-style-type = lower-alpha</h2>
+    <ul style="list-style-type:lower-alpha;">
+        <li>LG G 5</li>
+        <li>Huawei P8</li>
+        <li>Asus ZenFone 2</li>
+    </ul>
+    <h2>Styled</h2>
+    <ul id="menu">
+        <li>Главная</li>
+        <li>Блог</li>
+        <li>Форум</li>
+        <li>О сайте</li>
+    </ul>
+    <details>
+        <summary>Флагманы 2015</summary>
+        <ul>
+            <li>iPhone 6S Plus</li>
+            <li>Nexus 6P</li>
+            <li>Galaxy S6 Edge</li>
+            <li>Lumia 950 XL</li>
+        </ul>
+    </details>
+    <dl>
+        <dt>Онтология</dt>
+        <dd>Раздел философии, изучающий фундаментальные принципы бытия</dd>
+        <dt>Гносеология</dt>
+        <dd>Философская дисциплина, занимающаяся исследованиями, критикой и теориями познания</dd>
+        <dt>Производственные отношения</dt>
+        <dd>Совокупность отношений между людьми, складывающихся в процессе общественного производства, 
+            обмена, распределения материальных благ и услуг.</dd>
+    </dl>
+    <table>
+        <caption><b>Популярные смартфоны 2015</b></caption>
+        <thead>
+            <tr>
+                <th>Модель</th> <th>Компания</th> <th>Цена</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nexus 6P</td> <td>Huawei</td> <td>49000</td>
+            </tr>
+            <tr>
+                <td>iPhone 6S PLus</td> <td>Apple</td> <td>62000</td>
+            </tr>
+            <tr>
+                <td>Lumia 950 XL</td> <td>Microsoft</td> <td>35000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Информация по состоянию на 17 марта</th>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="first.html">Главная страница</a>
+</body>
+
 </html>
