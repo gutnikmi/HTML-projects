@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+p<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,9 +8,10 @@
         ul#menu li {
             display: inline;
         }
-        td {
-            border: solid 1px silver; 
-            text-align:center;
+
+        td#tblid {
+            border: solid 1px rgb(177, 173, 173);
+            text-align: center;
         }
     </style>
 </head>
@@ -34,10 +35,12 @@
     <p>Это <ins>добавленный</ins> текст</p>
     <p>Это <u>подчеркнутый</u> текст</p>
     <p>X<sub>i</sub> = Y<sup><small>2</small></sup> + Z<sup><small>2</small></sup></p>
-    <center><img src="Capy.jpeg" width="400" height="300" alt="Капибара" style="float:middle" /><br /></center>
-    <center>
-        <div>This is a Capybara</div>
-    </center>
+    <figure>
+        <center><img src="Capy.jpeg" width="400" height="300" alt="Капибара" style="float:middle" /><br /></center>
+        <center>
+            <figcaption>This is a Capybara</figcaption>
+        </center>
+    </figure>
     <h2>list-style-type = decimal</h2>
     <ol style="list-style-type:decimal;" start="3">
         <li>iPhone 6S</li>
@@ -80,25 +83,33 @@
         <dt>Гносеология</dt>
         <dd>Философская дисциплина, занимающаяся исследованиями, критикой и теориями познания</dd>
         <dt>Производственные отношения</dt>
-        <dd>Совокупность отношений между людьми, складывающихся в процессе общественного производства, 
+        <dd>Совокупность отношений между людьми, складывающихся в процессе общественного производства,
             обмена, распределения материальных благ и услуг.</dd>
     </dl>
     <table>
         <caption><b>Популярные смартфоны 2015</b></caption>
         <thead>
             <tr>
-                <th>Модель</th> <th>Компания</th> <th>Цена</th>
+                <th>Модель</th>
+                <th>Компания</th>
+                <th>Цена</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Nexus 6P</td> <td>Huawei</td> <td>49000</td>
+                <td id="tblid">Nexus 6P</td>
+                <td id="tblid">Huawei</td>
+                <td id="tblid">49000</td>
             </tr>
             <tr>
-                <td>iPhone 6S PLus</td> <td>Apple</td> <td>62000</td>
+                <td>iPhone 6S PLus</td>
+                <td>Apple</td>
+                <td>62000</td>
             </tr>
             <tr>
-                <td>Lumia 950 XL</td> <td>Microsoft</td> <td>35000</td>
+                <td>Lumia 950 XL</td>
+                <td>Microsoft</td>
+                <td>35000</td>
             </tr>
         </tbody>
         <tfoot>
