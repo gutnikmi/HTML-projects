@@ -1,3 +1,15 @@
+html {
+
+    background-image: url(Frogs.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    }
 .row{
   align-items: stretch;
   display: flex;
@@ -5,23 +17,27 @@
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
-  border:1rem solid white;
+  border:2px transparent rgb(255, 192, 203, .5);
 }
 .card {
   /*float: left;*/
   max-width: 33.333%;
   padding: .75rem;
   margin-bottom: 2rem;
-  border:1rem solid white;
+  border:2px solid rgb(255, 192, 203, .5);
   flex-basis: 33.333%;
   flex-grow: 0;
   flex-shrink: 0;
+  background-color: aliceblue;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
 .card > img {
   margin-bottom: .75rem;
   width: 100%;
-  border:1rem solid white;
+  border:2px solid rgb(255, 192, 203, .5);
 }
 
 .card-text {
@@ -30,4 +46,33 @@
 
 ::-webkit-scrollbar {
     display: none;
+}
+#wrapper {
+    width:940px;
+    margin: 0 auto;
+}
+
+header {
+    text-align:center;
+    padding:7px 0;
+    text-shadow: white;
+    font: Arial;
+    color:rgb(66, 201, 66);
+    font: italic small-caps bold 16px/2 cursive;
+  }
+
+nav {
+    position: relative;
+    top: 0px;
+    background: #9cf766;
+    height: 60px;
+    margin-left: -10px;
+    line-height:50px;
+    position: static;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+.fixed {
+    position:fixed;
 }
