@@ -62,17 +62,22 @@ header {
   }
 
 nav {
-    position: relative;
-    top: 0px;
+    width:100%;
     background: #9cf766;
     height: 60px;
-    margin-left: -10px;
     line-height:50px;
     position: static;
     margin-top: 7px;
     margin-bottom: 7px;
+    left: 0;
+    
 
 }
 .fixed {
     position:fixed;
+}
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1;    
 }
