@@ -32,7 +32,7 @@ html {
   margin-right: 5px;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
   border-radius: 10px;
-  font: italic small-caps bold 16px/2 cursive;
+  font: italic small-caps 16px/2 cursive;
 
 }
 
@@ -45,6 +45,11 @@ html {
 
 .card-text {
   font-size: 85%;
+}
+.card-title{
+  font-size: 85%;
+  font: italic small-caps bald 16px/2 cursive;
+
 }
 
 ::-webkit-scrollbar {
@@ -80,7 +85,18 @@ nav {
     display: flex;  
     justify-content: space-between;  
     align-items: center;  
-
+}
+footer{
+  width:100%;
+  background: rgba(203,249,185,255);
+  height: 50px;
+  line-height:50px;
+  position: static;
+  left: 0;
+  border:2px solid rgb(255, 192, 203, .5);
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
 }
 .fixed {
     position:fixed;
@@ -124,3 +140,10 @@ nav {
   list-style: none;   
   text-align: end;  
  }
+ .no-italics {
+  font-style: normal;   
+}
+.cat-name{
+  font: italic small-caps 20px/2 cursive;
+  margin-left: 1rem;
+}
