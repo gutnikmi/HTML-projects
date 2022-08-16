@@ -1,113 +1,109 @@
 html {
+  background-image: url(Frogs.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: italic;
+  margin-right: -1rem;
+}
 
-    background-image: url(Frogs.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: italic;
-    }
-.row{
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+embed {
+  width: 100%;
+  margin-bottom: -60px;
+}
+
+.row {
   align-items: stretch;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
-  border:2px transparent rgb(255, 192, 203, .5);
+  border: 2px transparent rgb(255, 192, 203, .5);
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
 .card {
   max-width: 33.333%;
   padding: .75rem;
   margin-bottom: 2rem;
-  border:2px solid rgb(255, 192, 203, .5);
+  border: 2px solid rgb(255, 192, 203, .5);
   flex-basis: 33.333%;
   flex-grow: 0;
   flex-shrink: 0;
   background-color: aliceblue;
   margin-left: 5px;
   margin-right: 5px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   font: italic small-caps 16px/2 cursive;
 
 }
 
-.card > img {
+.card>img {
   margin-bottom: .75rem;
   width: 100%;
-  border:2px solid rgb(255, 192, 203, .5);
+  border: 2px solid rgb(255, 192, 203, .5);
   border-radius: 10px;
 }
 
 .card-text {
   font-size: 85%;
 }
-.card-title{
+
+.card-title {
   font-size: 85%;
   font: italic small-caps bald 16px/2 cursive;
 
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
-#wrapper {
-    width:940px;
-    margin: 0 auto;
-}
+
 
 header {
-    text-align:center;
-    padding:7px 0;
-    text-shadow: white;
-    color:white;
-    font: italic small-caps bold 16px/2 cursive;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    margin-bottom: 7px;
-  }
-
-nav {
-    width:100%;
-    background: rgba(203,249,185,255);
-    height: 30px;
-    line-height:50px;
-    position: static;
-    margin-bottom: 7px;
-    left: 0;
-    border:2px solid rgb(255, 192, 203, .5);
-    display: flex;  
-    justify-content: space-between;  
-    align-items: center;  
+  text-align: center;
+  text-shadow: white;
+  color: white;
+  font: italic small-caps bold 16px/2 cursive;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 7px;
 }
-footer{
-  width:100%;
-  background: rgba(203,249,185,255);
+
+
+footer {
+  width: 100%;
+  background: rgba(203, 249, 185, 255);
   height: 50px;
-  line-height:50px;
+  line-height: 50px;
   position: static;
   left: 0;
-  border:2px solid rgb(255, 192, 203, .5);
-  display: flex;  
-  justify-content: space-between;  
-  align-items: center;  
+  border: 2px solid rgb(255, 192, 203, .5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .fixed {
-    position:fixed;
+  position: fixed;
 }
-*{
-  margin: 0;
-  padding: 0;
-  line-height: 1;    
-}
+
+
 .oval {
   width: 200px;
   height: 80px;
@@ -115,38 +111,39 @@ footer{
   border-radius: 50%;
   justify-content: center;
 }
-.ul1 {  
-  display: flex;  
-  gap: 10px;  
-  font-size: 1.2em;  
-  padding-right: 20px;  
- }  
- .ull {  
-  display: flex;  
-  gap: 10px;  
-  font-size: 1.2em;  
-  padding-right: 20px;  
-  justify-content: right;
-}  
- a:link  {color:white; font: italic small-caps bold 16px/2 cursive;  outline: none;
-  text-decoration: none;}
- a:visited {color:white;font: italic small-caps bold 16px/2 cursive;}
- a:hover   {color:pink;font: italic small-caps bold 16px/2 cursive;}
- a:active  {color:yellow;font: italic small-caps bold 16px/2 cursive;}
- 
- .li1 {  
-  list-style: none;   
-  text-align: center;   
- }  
- .log {
-  list-style: none;   
-  text-align: end;  
- }
- .no-italics {
-  font-style: normal;   
+
+a:link {
+  color: white;
+  font: italic small-caps bold 16px/2 cursive;
+  outline: none;
+  text-decoration: none;
 }
-.cat-name{
+
+a:visited {
+  color: white;
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+a:hover {
+  color: pink;
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+a:active {
+  color: yellow;
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+.no-italics {
+  font-style: normal;
+}
+
+.cat-name {
   font: italic small-caps 20px/2 cursive;
   margin-left: 1rem;
-  margin-right: 1rem;  
+  margin-right: 1rem;
+}
+
+body {
+  overflow-x: hidden;
 }
