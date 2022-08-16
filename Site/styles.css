@@ -18,6 +18,8 @@ html {
   overflow-x: auto;
   overflow-y: hidden;
   border:2px transparent rgb(255, 192, 203, .5);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .card {
   max-width: 33.333%;
@@ -146,4 +148,5 @@ footer{
 .cat-name{
   font: italic small-caps 20px/2 cursive;
   margin-left: 1rem;
+  margin-right: 1rem;  
 }
