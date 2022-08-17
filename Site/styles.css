@@ -1,4 +1,4 @@
-html {
+#Page {
   background-image: url(Frogs.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -19,7 +19,6 @@ html {
 
 embed {
   width: 100%;
-  margin-bottom: -60px;
 }
 
 .row {
@@ -97,6 +96,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font: italic small-caps bold 16px/2 cursive;
+  color: white;
+  position:absolute;
+  bottom:0px;
+
 }
 
 .fixed {
@@ -146,4 +150,40 @@ a:active {
 
 body {
   overflow-x: hidden;
+}
+
+#botemb{
+  margin-bottom: -2px;
+}
+#topemb{
+  margin-bottom: -30px;
+
+}
+.agr{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: aliceblue;
+  border: 2px solid rgb(255, 192, 203, .5);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: -2rem;
+  margin-bottom: 20px;
+}
+.agr a:link{
+  color: black;
+  font: italic small-caps bold 12px/2 cursive;
+}
+.agr a:visited {
+  color: black;
+  font: italic small-caps bold 12px/2 cursive;
+}
+
+.agr a:hover {
+  color: pink;
+  font: italic small-caps bold 12px/2 cursive;
+}
+
+.agr a:active {
+  color: black;
+  font: italic small-caps bold 12px/2 cursive;
 }
