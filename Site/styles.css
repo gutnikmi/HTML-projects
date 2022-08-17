@@ -9,6 +9,7 @@
   background-size: cover;
   font-family: italic;
   margin-right: -1rem;
+
 }
 
 * {
@@ -98,8 +99,8 @@ footer {
   align-items: center;
   font: italic small-caps bold 16px/2 cursive;
   color: white;
-  position:absolute;
-  bottom:0px;
+  position: absolute;
+  bottom: 0px;
 
 }
 
@@ -152,27 +153,30 @@ body {
   overflow-x: hidden;
 }
 
-#botemb{
+#botemb {
   margin-bottom: -2px;
 }
-#topemb{
-  margin-bottom: -30px;
 
+#topemb {
+  height: 80px;
 }
-.agr{
+
+.agr {
   margin-left: 2rem;
   margin-right: 2rem;
   background-color: aliceblue;
   border: 2px solid rgb(255, 192, 203, .5);
   padding: 1rem;
   border-radius: 10px;
-  margin-top: -2rem;
-  margin-bottom: 20px;
+  font: italic 50px bold "Times New Roman", Times, serif;
+
 }
-.agr a:link{
+
+.agr a:link {
   color: black;
   font: italic small-caps bold 12px/2 cursive;
 }
+
 .agr a:visited {
   color: black;
   font: italic small-caps bold 12px/2 cursive;
@@ -186,4 +190,21 @@ body {
 .agr a:active {
   color: black;
   font: italic small-caps bold 12px/2 cursive;
+}
+
+
+#padded {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.privacy-list{
+  font: italic 50px bold "Times New Roman", Times, serif;
+}
+.privacy-list p, div{
+margin-left: 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+.privacy-list span{
+  margin-right: 5px;
 }
