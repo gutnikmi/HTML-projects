@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="Page">
 
 <head>
   <meta charset="utf-8">
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <embed type="text/html" src="nav.html">
+  <embed id="topemb" type="text/html" src="nav.html">
   <center>
     <header class="oval">
       <h1>SHURKA</h1>
@@ -67,16 +67,5 @@
       </div>
     </div>
   </div>
-  <footer>
-    <style></style>
-    <p><a href="/license">Пользовательское соглашение</a><br />
-      Copyright © 2022-<var id="year" class='no-italics'></var> Shurka.ru</p>
-  </footer>
-</body>
-<script>
-  n = new Date();
-  y = n.getFullYear();
-  document.getElementById("year").innerHTML = y
-</script>
-
+  <embed id="botemb" type="text/html" src="foot.html">
 </html>

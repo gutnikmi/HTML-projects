@@ -19,6 +19,7 @@ nav {
 
 body {
     padding: 0 calc(20px - (100vw - 100%)) 0 0;
+    overflow-x: hidden;
 }
 
 .ul1 {
