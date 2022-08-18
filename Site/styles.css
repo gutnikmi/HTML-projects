@@ -63,8 +63,7 @@ embed {
 }
 
 .card-title {
-  font-size: 85%;
-  font: italic small-caps bold 16px/2 cursive;
+  font: italic small-caps bold 14px cursive;
 
 }
 
@@ -218,15 +217,13 @@ margin-bottom: 1rem;
   margin-right: 5px;
 }
 .prod-card{
-  margin: 0 3rem 0 2rem;
+  margin: 0 3rem 0 1rem;
   align-items: stretch;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   overflow-x: hidden;
   overflow-y: hidden;
-  margin-left: 1rem;
-  margin-right: 2rem;
   background-color: aliceblue;
   border: 2px solid rgb(255, 192, 203, .5);
   border-radius: 10px;
@@ -248,6 +245,21 @@ margin-bottom: 1rem;
 .prod-descr{
   justify-content:left;
   margin-left: 1rem;
+
+}
+.prod-review{
+  margin: 1rem 3rem 0 1rem;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: aliceblue;
+  border: 2px solid rgb(255, 192, 203, .5);
+  border-radius: 10px;
+  font: italic small-caps 16px/2 cursive;
+  padding: 5px;
 
 }
 .about{
