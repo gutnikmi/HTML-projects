@@ -51,20 +51,20 @@ embed {
 
 }
 
-.card>img {
-  margin-bottom: .75rem;
+.card img {
   width: 100%;
   border: 2px solid rgb(255, 192, 203, .5);
   border-radius: 10px;
 }
 
 .card-text {
-  font-size: 85%;
+  font-size: 75%;
+  font-style: normal;
 }
 
 .card-title {
   font-size: 85%;
-  font: italic small-caps bald 16px/2 cursive;
+  font: italic small-caps bold 16px/2 cursive;
 
 }
 
@@ -119,24 +119,20 @@ footer {
 
 a:link {
   color: white;
-  font: italic small-caps bold 16px/2 cursive;
   outline: none;
   text-decoration: none;
 }
 
 a:visited {
   color: white;
-  font: italic small-caps bold 16px/2 cursive;
 }
 
 a:hover {
   color: pink;
-  font: italic small-caps bold 16px/2 cursive;
 }
 
 a:active {
   color: yellow;
-  font: italic small-caps bold 16px/2 cursive;
 }
 
 .no-italics {
@@ -169,7 +165,6 @@ body {
   padding: 1rem;
   border-radius: 10px;
   font: italic 50px bold "Times New Roman", Times, serif;
-
 }
 
 .agr a:link {
@@ -192,7 +187,21 @@ body {
   font: italic small-caps bold 12px/2 cursive;
 }
 
+.card a:link {
+  color: black;
+}
 
+.card a:visited {
+  color: black;
+}
+
+.card a:hover {
+  color: black;
+}
+
+.card a:active {
+  color: black;
+}
 #padded {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -208,3 +217,46 @@ margin-bottom: 1rem;
 .privacy-list span{
   margin-right: 5px;
 }
+.prod-card{
+  margin: 0 3rem 0 2rem;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  background-color: aliceblue;
+  border: 2px solid rgb(255, 192, 203, .5);
+  border-radius: 10px;
+  font: italic small-caps 16px/2 cursive;
+
+}
+.prod-card img {
+  width: 90%;
+  height: 50% ;
+  border: 2px solid rgb(255, 192, 203, .5);
+  border-radius: 10px;
+
+  
+}
+.prod-card #prod-name{
+  font: italic small-caps 20px cursive;
+
+}
+.prod-descr{
+  justify-content:left;
+  margin-left: 1rem;
+
+}
+.about{
+  margin-right: 2rem;
+  background-color: aliceblue;
+  border: 2px solid rgb(255, 192, 203, .5);
+  padding: 1rem;
+  border-radius: 10px;
+  font: italic small-caps 24px cursive;
+  margin-bottom: 5rem;
+}
+
