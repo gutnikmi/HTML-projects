@@ -1,4 +1,4 @@
-<html>
+<html id="Page">
 
 <head>
     {% if title %}
@@ -6,10 +6,10 @@
     {% else %}
     <title>Welcome to Microblog</title>
     {% endif %}
-</head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"></head>
 
 <body>
-    <div>Microblog: <a href="/index.html">Home</a></div>
+    <div>Microblog: <a href="/index">Home</a><a href="/login">Login</a></div>
     <hr>
     {% block content %}{% endblock %}
 </body>
