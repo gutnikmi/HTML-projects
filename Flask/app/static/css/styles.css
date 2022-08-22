@@ -29,7 +29,7 @@ embed {
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
-  border: 2px transparent rgb(255, 192, 203, .5);
+  border: 2px transparent rgb(255, 192, 203);
   margin-left: 1rem;
   margin-right: 1rem;
 }
