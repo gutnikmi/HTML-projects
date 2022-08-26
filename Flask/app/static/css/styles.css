@@ -47,11 +47,7 @@
 
 }
 
-.card img {
-  width: 100%;
-  border: 2px solid rgb(255, 192, 203, .5);
-  border-radius: 10px;
-}
+
 
 .card-text {
   font-size: 75%;
