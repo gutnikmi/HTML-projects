@@ -87,12 +87,12 @@ header {
 
 footer {
   width: 100%;
-  background: rgba(203, 249, 185, 255);
+  background: rgba(183,231,153, 255);
   height: 50px;
   line-height: 50px;
   position: static;
   left: 0;
-  border: 2px solid rgb(255, 192, 203, .5);
+  border: 2px solid rgb(183,231,153, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;

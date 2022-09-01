@@ -1,11 +1,11 @@
 nav {
     width: 100%;
-    background: rgba(203, 249, 185, 255);
+    background: rgb(183,231,153);
     height: 30px;
     line-height: 50px;
     position: static;
     left: 0;
-    border: 2px solid rgb(255, 192, 203, .5);
+    border: 2px solid rgb(183,231,153, .5);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +49,6 @@ body {
 }
 
 a:link {
-    color: white;
     font: italic small-caps bold 16px/2 cursive;
     outline: none;
     text-decoration: none;
@@ -78,34 +77,41 @@ a:active {
     display: inline-block;
     position: relative;
 
-  } 
-  #dropdown-content {
+
+}
+
+#dropdown-content {
     display: none;
     position: absolute;
-    width: 100%;
+    width: 150px;
     overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-  }
-  #dropdown:hover #dropdown-content {
+    margin-top: 30px;
+}
+
+#dropdown:hover #dropdown-content {
     display: block;
-  }
-  #dropdown-content a {
+}
+
+#dropdown-content a {
     display: block;
     color: #000000;
-    padding: 5px;
     text-decoration: none;
-  }
-  #dropdown-content a:hover {
-    color: pink;
-    background-color: white;
-  }
+    text-shadow: 1px 1px 1px transparent;
 
-  button{
+}
+
+#dropdown-content a:hover {
+    color: pink;
+}
+
+button {
     background: rgba(203, 249, 185, 255);
     border: transparent;
     color: white;
     font: italic small-caps bold 16px/2 cursive;
-  }
-  #dropdown-content:hover{
+    height: 0%;
+}
+
+button:hover {
     color: pink;
-  }
+}
