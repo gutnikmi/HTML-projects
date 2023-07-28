@@ -85,7 +85,8 @@ a:active {
     position: absolute;
     width: 150px;
     overflow: auto;
-    margin-top: 30px;
+    margin-top: 35px;
+    border: 1px solid black;
 }
 
 #dropdown:hover #dropdown-content {
@@ -94,7 +95,9 @@ a:active {
 
 #dropdown-content a {
     display: block;
-    color: #000000;
+    color: white;
+    background: rgb(183,231,153);
+
     text-decoration: none;
     text-shadow: 1px 1px 1px transparent;
 
@@ -113,5 +116,36 @@ button {
 }
 
 button:hover {
+    color: pink;
+}
+
+#dropcat {
+    display: inline-block;
+    position: relative;
+
+
+}
+
+#dropcat-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+#dropcat:hover #dropcat-content {
+    display: block;
+}
+
+#dropcat-content a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px transparent;
+
+}
+
+#dropcat-content a:hover {
     color: pink;
 }
